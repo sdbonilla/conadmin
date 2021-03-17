@@ -1,0 +1,7 @@
+{
+  "name": "conadmin",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
