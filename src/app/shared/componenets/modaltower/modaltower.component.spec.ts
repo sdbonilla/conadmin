@@ -1,19 +1,19 @@
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 import { IonicModule } from '@ionic/angular';
 
-import { TorresheetComponent } from './torresheet.component';
+import { ModaltowerComponent } from './modaltower.component';
 
-describe('TorresheetComponent', () => {
-  let component: TorresheetComponent;
-  let fixture: ComponentFixture<TorresheetComponent>;
+describe('ModaltowerComponent', () => {
+  let component: ModaltowerComponent;
+  let fixture: ComponentFixture<ModaltowerComponent>;
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ TorresheetComponent ],
+      declarations: [ ModaltowerComponent ],
       imports: [IonicModule.forRoot()]
     }).compileComponents();
 
-    fixture = TestBed.createComponent(TorresheetComponent);
+    fixture = TestBed.createComponent(ModaltowerComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   }));
